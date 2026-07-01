@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biubiu加速器下载官网 - 一键加速畅玩游戏 帕拉斯引擎3.0</title>
+    <meta name="description" content="biubiu加速器下载官网，提供v4.0.30最新版电脑版免费下载。自研帕拉斯引擎3.0，全球300+专线节点，覆盖20000+款游戏，支持PC/PS/Xbox/Steam Deck全平台加速。延迟低至22ms，丢包率低于0.15%，注册即享96小时免费加速体验。">
+    <meta name="keywords" content="biubiu加速器,biubiu加速器官网,biubiu加速器下载,游戏加速器下载,PC游戏加速,免费加速器,帕拉斯引擎,网游加速器">
+    <meta name="indexnow-key" content="aff9682237330220f9aa800be9dff4d1">
+    <link rel="icon" href="/favicon.png" type="image/png">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --bg-dark: #1a0508;
+            --bg-card: #2a0a0e;
+            --red: #dc2626;
+            --orange: #f97316;
+            --text-white: #ffffff;
+            --text-gray: #a1a1aa;
+            --border-color: #3d1518;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-white);
+            line-height: 1.6;
+        }
+        
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* 导航栏 */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(180deg, rgba(26,5,8,0.98) 0%, rgba(26,5,8,0.95) 100%);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            padding: 15px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--red) 0%, var(--orange) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            color: var(--text-gray);
+            font-size: 15px;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: var(--red);
+        }
+        
+        .btn-download-nav {
+            background: linear-gradient(135deg, var(--red) 0%, var(--orange) 100%);
+            color: white;
+            padding: 10px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 14px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .btn-download-nav:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(220,38,38,0.4);
+        }
+        
+        /* Hero区 */
+        .hero {
+            padding: 140px 0 80px;
+            background: linear-gradient(180deg, var(--bg-dark) 0%, #2a0a10 50%, var(--bg-dark) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(220,38,38,0.15) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        
+        .hero .container {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+        
+        .hero-content {
+            flex: 1.1;
+            min-width: 0;
+        }
+        
+        .hero-title {
+            font-size: 42px;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--text-white) 0%, var(--orange) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-subtitle {
+            font-size: 18px;
+            color: var(--text-gray);
+            margin-bottom: 32px;
+            line-height: 1.8;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, var(--red) 0%, var(--orange) 100%);
+            color: white;
+            padding: 14px 32px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(220,38,38,0.5);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: var(--text-white);
+            padding: 14px 32px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 16px;
+            border: 2px solid var(--border-color);
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .btn-secondary:hover {
+            border-color: var(--red);
+            background: rgba(220,38,38,0.1);
+        }
+        
+        .hero-image {
+            flex: 0.9;
+            min-width: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        
+        .hero-image img {
+            aspect-ratio: 3/2;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .data-cards {
+            display: flex;
+            flex-direction: row;
+            gap: 12px;
+        }
+        
+        .data-card {
+            background: rgba(42,10,14,0.95);
+            border: 1px solid var(--border-color);
+            padding: 12px 16px;
+            border-radius: 10px;
+            text-align: center;
+            flex: 1;
+        }
+        
+        .data-card .value {
+            font-size: 22px;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--red) 0%, var(--orange) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .data-card .label {
+            font-size: 12px;
+            color: var(--text-gray);
+            margin-top: 4px;
+        }
+        
+        /* 通用标题 */
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+        
+        .section-subtitle {
+            text-align: center;
+            color: var(--text-gray);
+            font-size: 16px;
+            margin-bottom: 48px;
+        }
+        
+        /* 游戏分类展示 */
+        .game-categories {
+            padding: 80px 0;
+            background: var(--bg-dark);
+        }
+        
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+        }
+        
+        .category-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 32px;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+        
+        .category-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--red);
+        }
+        
+        .category-icon {
+            width: 56px;
+            height: 56px;
+            background: linear-gradient(135deg, var(--red) 0%, var(--orange) 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        
+        .category-title {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        
+        .category-games {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .game-tag {
+            background: rgba(220,38,38,0.15);
+            color: var(--text-gray);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            transition: all 0.3s;
+        }
+        
+        .game-tag:hover {
+            background: rgba(220,38,38,0.3);
+            color: var(--text-white);
+        }
+        
+        /* 热门游戏加速 */
+        .hot-games {
+            padding: 80px 0;
+            background: linear-gradient(180deg, var(--bg-dark) 0%, #2a0a10 50%, var(--bg-dark) 100%);
+        }
+        
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        
+        .game-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+        
+        .game-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--red);
+            box-shadow: 0 10px 30px rgba(220,38,38,0.2);
+        }
+        
+        .game-card .game-icon {
+            width: 64px;
+            height: 64px;
+            background: linear-gradient(135deg, var(--red) 0%, var(--orange) 100%);
+            border-radius: 50%;
+            margin: 0 auto 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 800;
+        }
+        
+        .game-card h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+        
+        .game-card p {
+            font-size: 13px;
+            color: var(--text-gray);
+            line-height: 1.5;
+        }
+        
+        /* 使用教程 */
+        .tutorial {
+            padding: 80px 0;
+            background: var(--bg-dark);
+        }
+        
+        .tutorial-steps {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            position: relative;
+        }
+        
+        .tutorial-steps::before {
+            content: '';
+            position: absolute;
+            top: 40px;
+            left: 12.5%;
+            width: 75%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--red) 0%, var(--orange) 100%);
+            border-radius: 2px;
+            z-index: 0;
+        }
+        
+        .step-card {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+        
+        .step-number {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--red) 0%, var(--orange) 100%);
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            font-weight: 800;
+            box-shadow: 0 10px 30px rgba(220,38,38,0.4);
+        }
+        
+        .step-title {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        
+        .step-desc {
+            font-size: 14px;
+            color: var(--text-gray);
+            line-height: 1.6;
+        }
+        
+        /* 技术规格 */
+        .specs {
+            padding: 80px 0;
+            background: linear-gradient(180deg, var(--bg-dark) 0%, #2a0a10 50%, var(--bg-dark) 100%);
+        }
+        
+        .specs-table {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            overflow: hidden;
+        }
+        
+        .specs-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .specs-table th,
+        .specs-table td {
+            padding: 16px 24px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .specs-table th {
+            background: rgba(220,38,38,0.15);
+            font-weight: 600;
+            width: 30%;
+            color: var(--orange);
+        }
+        
+        .specs-table tr:last-child td,
+        .specs-table tr:last-child th {
+            border-bottom: none;
+        }
+        
+        .specs-table tr:hover td {
+            background: rgba(220,38,38,0.05);
+        }
+        
+        /* 用户评价 */
+        .testimonials {
+            padding: 80px 0;
+            background: var(--bg-dark);
+        }
+        
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        
+        .testimonial-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 28px;
+            transition: all 0.3s;
+        }
+        
+        .testimonial-card:hover {
+            border-color: var(--red);
+            transform: translateY(-4px);
+        }
+        
+        .stars {
+            color: #fbbf24;
+            font-size: 18px;
+            margin-bottom: 16px;
+        }
+        
+        .testimonial-text {
+            font-size: 15px;
+            line-height: 1.7;
+            color: var(--text-gray);
+            margin-bottom: 16px;
+        }
+        
+        .testimonial-author {
+            font-weight: 600;
+            color: var(--orange);
+        }
+        
+        /* FAQ */
+        .faq {
+            padding: 80px 0;
+            background: linear-gradient(180deg, var(--bg-dark) 0%, #2a0a10 50%, var(--bg-dark) 100%);
+        }
+        
+        .faq-list {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .faq-item {
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            margin-bottom: 12px;
+            overflow: hidden;
+        }
+        
+        .faq-question {
+            width: 100%;
+            background: var(--bg-card);
+            border: none;
+            padding: 18px 24px;
+            color: var(--text-white);
+            font-size: 16px;
+            font-weight: 600;
+            text-align: left;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s;
+        }
+        
+        .faq-question:hover {
+            background: rgba(220,38,38,0.15);
+        }
+        
+        .faq-question::after {
+            content: '+';
+            font-size: 1.4rem;
+            color: var(--red);
+            transition: transform 0.3s;
+        }
+        
+        .faq-item.active .faq-question::after {
+            transform: rotate(45deg);
+        }
+        
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            background: var(--bg-dark);
+        }
+        
+        .faq-item.active .faq-answer {
+            max-height: 300px;
+        }
+        
+        .faq-answer p {
+            padding: 18px 24px;
+            color: var(--text-gray);
+            line-height: 1.8;
+        }
+        
+        /* 底部CTA */
+        .cta-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, rgba(220,38,38,0.2) 0%, rgba(249,115,22,0.1) 100%);
+            text-align: center;
+        }
+        
+        .cta-title {
+            font-size: 40px;
+            font-weight: 800;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, var(--text-white) 0%, var(--orange) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .cta-subtitle {
+            font-size: 18px;
+            color: var(--text-gray);
+            margin-bottom: 32px;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+        }
+        
+        .btn-windows {
+            background: linear-gradient(135deg, var(--red) 0%, var(--orange) 100%);
+            color: white;
+            padding: 16px 40px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 16px;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .btn-windows:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(220,38,38,0.5);
+        }
+        
+        .btn-android {
+            background: transparent;
+            color: var(--text-white);
+            padding: 16px 40px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 16px;
+            border: 2px solid var(--border-color);
+            transition: all 0.3s;
+        }
+        
+        .btn-android:hover {
+            border-color: var(--red);
+            background: rgba(220,38,38,0.1);
+        }
+        
+        /* Footer */
+        .footer {
+            padding: 32px 0;
+            background: var(--bg-dark);
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+        }
+        
+        .footer p {
+            color: var(--text-gray);
+            font-size: 14px;
+        }
+        
+        /* 固定下载栏 */
+        .fixed-download-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(26,5,8,0.98);
+            backdrop-filter: blur(10px);
+            border-top: 1px solid var(--border-color);
+            padding: 12px 0;
+            z-index: 1000;
+            display: none;
+        }
+        
+        .fixed-download-bar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .fixed-bar-info {
+            font-size: 14px;
+            color: var(--text-gray);
+        }
+        
+        .fixed-bar-info strong {
+            color: var(--orange);
+        }
+        
+        .fixed-bar-buttons {
+            display: flex;
+            gap: 12px;
+        }
+        
+        .btn-fixed {
+            background: linear-gradient(135deg, var(--red) 0%, var(--orange) 100%);
+            color: white;
+            padding: 10px 24px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        
+        .btn-fixed:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(220,38,38,0.4);
+        }
+        
+        /* 响应式 */
+        @media (max-width: 1024px) {
+            .hero .container {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .hero-content {
+                order: 1;
+            }
+            
+            .hero-image {
+                order: 2;
+                width: 100%;
+            }
+            
+            .data-cards {
+                flex-direction: row;
+                justify-content: center;
+            }
+            
+            .hero-title {
+                font-size: 36px;
+            }
+            
+            .hero-buttons {
+                justify-content: center;
+            }
+            
+            .games-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .tutorial-steps {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .tutorial-steps::before {
+                display: none;
+            }
+            
+            .testimonial-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero {
+                padding: 120px 0 60px;
+            }
+            
+            .hero-title {
+                font-size: 28px;
+            }
+            
+            .hero-subtitle {
+                font-size: 15px;
+            }
+            
+            .section-title {
+                font-size: 28px;
+            }
+            
+            .category-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .games-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .tutorial-steps {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+            
+            .faq-list {
+                grid-template-columns: 1fr;
+            }
+            
+            .cta-title {
+                font-size: 28px;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+            }
+            
+            .fixed-download-bar {
+                display: block;
+            }
+            
+            body {
+                padding-bottom: 70px;
+            }
+            
+            .data-cards {
+                flex-direction: column;
+                gap: 8px;
+            }
+            
+            .data-card {
+                padding: 12px 16px;
+            }
+            
+            .data-card .value {
+                font-size: 22px;
+            }
+        }
+    </style>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "biubiu加速器",
+        "url": "https://www.biubiujsq.com.cn",
+        "description": "biubiu加速器下载官网，提供v4.0.30最新版电脑版免费下载。自研帕拉斯引擎3.0，全球300+专线节点，覆盖20000+款游戏，支持PC/PS/Xbox/Steam Deck全平台加速。",
+        "applicationCategory": "Game",
+        "operatingSystem": "Windows 10/11 64位",
+        "softwareVersion": "v4.0.30",
+        "fileSize": "114MB",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "CNY",
+            "description": "免费下载使用，注册即享96小时免费加速"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "15632"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo">biubiu加速器</a>
+            <ul class="nav-links">
+                <li><a href="#features">核心功能</a></li>
+                <li><a href="#games">支持游戏</a></li>
+                <li><a href="#tutorial">下载教程</a></li>
+                <li><a href="#faq">常见问题</a></li>
+            </ul>
+            <a href="https://download.lianxitg.adseo.com.cn/tgadseo/download.php?id=soft_1780968555_123" class="btn-download-nav">立即下载</a>
+        </div>
+    </nav>
+    
+    <!-- Hero区 -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">biubiu加速器<br>一键加速 畅玩游戏</h1>
+                <p class="hero-subtitle">帕拉斯引擎3.0驱动，全球300+专线节点智能选路，20000+游戏秒级加速，PC/PS/Xbox/Steam Deck全平台制霸</p>
+                <div class="hero-buttons">
+                    <a href="https://download.lianxitg.adseo.com.cn/tgadseo/download.php?id=soft_1780968555_123" class="btn-primary">立即下载</a>
+                    <a href="#games" class="btn-secondary">查看支持游戏</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="img/hero.jpg" alt="biubiu加速器">
+                <div class="data-cards">
+                    <div class="data-card">
+                        <div class="value">22ms</div>
+                        <div class="label">最低延迟</div>
+                    </div>
+                    <div class="data-card">
+                        <div class="value">0.15%</div>
+                        <div class="label">丢包率</div>
+                    </div>
+                    <div class="data-card">
+                        <div class="value">20000+</div>
+                        <div class="label">游戏数量</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 游戏分类展示 -->
+    <section class="game-categories" id="games">
+        <div class="container">
+            <h2 class="section-title">支持游戏分类</h2>
+            <p class="section-subtitle">覆盖全品类热门游戏，一键加速无压力</p>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-icon">⚔️</div>
+                    <h3 class="category-title">竞技对战</h3>
+                    <div class="category-games">
+                        <span class="game-tag">英雄联盟</span>
+                        <span class="game-tag">CS2</span>
+                        <span class="game-tag">瓦罗兰特</span>
+                        <span class="game-tag">DOTA2</span>
+                        <span class="game-tag">永劫无间</span>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🎯</div>
+                    <h3 class="category-title">射击生存</h3>
+                    <div class="category-games">
+                        <span class="game-tag">PUBG</span>
+                        <span class="game-tag">Apex</span>
+                        <span class="game-tag">使命召唤</span>
+                        <span class="game-tag">彩虹六号</span>
+                        <span class="game-tag">逃离塔科夫</span>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🗡️</div>
+                    <h3 class="category-title">角色扮演</h3>
+                    <div class="category-games">
+                        <span class="game-tag">原神</span>
+                        <span class="game-tag">暗黑破坏神</span>
+                        <span class="game-tag">黑神话悟空</span>
+                        <span class="game-tag">幻塔</span>
+                        <span class="game-tag">魔兽世界</span>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🏎️</div>
+                    <h3 class="category-title">体育竞速</h3>
+                    <div class="category-games">
+                        <span class="game-tag">FIFA</span>
+                        <span class="game-tag">NBA 2K</span>
+                        <span class="game-tag">极品飞车</span>
+                        <span class="game-tag">实况足球</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 热门游戏加速详情 -->
+    <section class="hot-games" id="features">
+        <div class="container">
+            <h2 class="section-title">热门游戏加速</h2>
+            <p class="section-subtitle">专为电竞玩家打造，稳定低延迟畅玩无阻</p>
+            <div class="games-grid">
+                <div class="game-card">
+                    <div class="game-icon">P</div>
+                    <h3>PUBG</h3>
+                    <p>亚服/欧服/美服全支持，延迟低至22ms</p>
+                </div>
+                <div class="game-card">
+                    <div class="game-icon">C</div>
+                    <h3>CS2</h3>
+                    <p>竞技模式零丢包，枪枪精准</p>
+                </div>
+                <div class="game-card">
+                    <div class="game-icon">A</div>
+                    <h3>Apex</h3>
+                    <p>身法操作丝滑，技能释放零延迟</p>
+                </div>
+                <div class="game-card">
+                    <div class="game-icon">永</div>
+                    <h3>永劫无间</h3>
+                    <p>近战拼刀不卡判定，排位上分利器</p>
+                </div>
+                <div class="game-card">
+                    <div class="game-icon">L</div>
+                    <h3>英雄联盟</h3>
+                    <p>全服加速，国服/韩服/欧服一键切换</p>
+                </div>
+                <div class="game-card">
+                    <div class="game-icon">原</div>
+                    <h3>原神</h3>
+                    <p>全球服区全覆盖，联机体验流畅</p>
+                </div>
+                <div class="game-card">
+                    <div class="game-icon">D</div>
+                    <h3>DOTA2</h3>
+                    <p>团战技能不延迟，操作响应毫秒级</p>
+                </div>
+                <div class="game-card">
+                    <div class="game-icon">瓦</div>
+                    <h3>瓦罗兰特</h3>
+                    <p>急停射击精准反馈，竞技必备</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 使用教程 -->
+    <section class="tutorial" id="tutorial">
+        <div class="container">
+            <h2 class="section-title">快速上手教程</h2>
+            <p class="section-subtitle">四步轻松开始你的极速游戏之旅</p>
+            <div class="tutorial-steps">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">下载客户端</h3>
+                    <p class="step-desc">点击官网下载按钮，一键获取安装包</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">安装注册</h3>
+                    <p class="step-desc">双击安装文件，注册并登录账号</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">选择游戏</h3>
+                    <p class="step-desc">在游戏库搜索目标游戏并点击加速</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">启动畅玩</h3>
+                    <p class="step-desc">节点连接成功后即可启动游戏</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 技术规格表 -->
+    <section class="specs">
+        <div class="container">
+            <h2 class="section-title">技术规格</h2>
+            <p class="section-subtitle">专业级技术参数，带来极致加速体验</p>
+            <div class="specs-table">
+                <table>
+                    <tr>
+                        <th>软件版本</th>
+                        <td>v4.0.30</td>
+                    </tr>
+                    <tr>
+                        <th>安装包大小</th>
+                        <td>114MB</td>
+                    </tr>
+                    <tr>
+                        <th>系统要求</th>
+                        <td>Windows 10/11 64位</td>
+                    </tr>
+                    <tr>
+                        <th>加速引擎</th>
+                        <td>帕拉斯引擎3.0</td>
+                    </tr>
+                    <tr>
+                        <th>全球节点</th>
+                        <td>300+专线节点</td>
+                    </tr>
+                    <tr>
+                        <th>支持游戏</th>
+                        <td>20000+款</td>
+                    </tr>
+                    <tr>
+                        <th>支持平台</th>
+                        <td>PC/PS/Xbox/Steam Deck</td>
+                    </tr>
+                    <tr>
+                        <th>最低延迟</th>
+                        <td>22ms</td>
+                    </tr>
+                    <tr>
+                        <th>丢包率</th>
+                        <td><0.15%</td>
+                    </tr>
+                    <tr>
+                        <th>加密标准</th>
+                        <td>AES-256端到端加密</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 用户评价 -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">用户真实评价</h2>
+            <p class="section-subtitle">听听玩家们怎么说</p>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"永劫无间排位用biubiu加速后延迟稳定在25ms，近战拼刀再也没输过，帕拉斯引擎确实强！"</p>
+                    <span class="testimonial-author">赵同学</span>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Steam Deck掌机加速神器，出差在外也能流畅玩3A大作，300+节点全球随便切。"</p>
+                    <span class="testimonial-author">钱哥</span>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★☆</div>
+                    <p class="testimonial-text">"游戏库是真的全，20000+游戏基本覆盖了我所有游戏，一个加速器就够了，免费时长也够用。"</p>
+                    <span class="testimonial-author">孙同学</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">常见问题</h2>
+            <p class="section-subtitle">快速解答您的疑惑</p>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">biubiu加速器下载是免费的吗？</button>
+                    <div class="faq-answer"><p>下载完全免费，新用户注册即送24小时加速时长，输入兑换码"biubiu不卡顿"可再领72小时，合计96小时免费体验。</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">帕拉斯引擎3.0有什么优势？</button>
+                    <div class="faq-answer"><p>帕拉斯引擎3.0采用动态多线、高速专网、多路发包、弱网对抗四大核心技术，平均延迟低至22ms，丢包率低于0.15%。</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">支持哪些操作系统？</button>
+                    <div class="faq-answer"><p>支持Windows 10/11 64位、macOS 10.15+（Intel和Apple Silicon）、Android 8.0+、iOS 13+。</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">加速后延迟没有明显降低？</button>
+                    <div class="faq-answer"><p>建议切换至智能模式让系统自动选路，或手动测速后选择延迟最低的节点。关闭后台其他占用网络的程序。</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">可以在多个设备上使用吗？</button>
+                    <div class="faq-answer"><p>一个账号支持多平台通用，PC/手机/掌机数据互通，但同一时间仅限一台设备使用。</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">如何联系客服？</button>
+                    <div class="faq-answer"><p>7×24小时在线客服，平均30秒响应。可通过APP内反馈或官网在线客服联系。</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">加速器会影响游戏数据安全吗？</button>
+                    <div class="faq-answer"><p>biubiu采用AES-256端到端加密，IP自动漂移保护，不会影响游戏账号安全。</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">账号密码忘记了怎么办？</button>
+                    <div class="faq-answer"><p>在登录界面点击"忘记密码"，通过注册手机号接收验证码即可重置。</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 底部CTA下载区 -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="cta-title">立即下载 开启极速游戏之旅</h2>
+            <p class="cta-subtitle">注册即享96小时免费加速，零门槛体验电竞级加速效果</p>
+            <div class="cta-buttons">
+                <a href="https://download.lianxitg.adseo.com.cn/tgadseo/download.php?id=soft_1780968555_123" class="btn-windows">🪟 Windows版</a>
+                <a href="https://download.lianxitg.adseo.com.cn/tgadseo/download.php?id=soft_1780968565_456" class="btn-android">📱 Android版</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 biubiu加速器官网 www.biubiujsq.com.cn 版权所有</p>
+        </div>
+    </footer>
+    
+    <!-- 固定下载栏 -->
+    <div class="fixed-download-bar">
+        <div class="container">
+            <div class="fixed-bar-info">
+                <strong>biubiu加速器</strong> · 注册即享96小时免费加速
+            </div>
+            <div class="fixed-bar-buttons">
+                <a href="https://download.lianxitg.adseo.com.cn/tgadseo/download.php?id=soft_1780968555_123" class="btn-fixed">立即下载</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        // FAQ手风琴效果
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const faqItem = button.parentElement;
+                const isActive = faqItem.classList.contains('active');
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+                if (!isActive) {
+                    faqItem.classList.add('active');
+                }
+            });
+        });
+    </script>
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"3QQ2JMzTqtA94HFr",ck:"3QQ2JMzTqtA94HFr"})</script>
+</body>
+</html>
